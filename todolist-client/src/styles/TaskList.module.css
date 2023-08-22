@@ -1,0 +1,72 @@
+:root {
+    --blue: #4EA8DE;
+    --purple: #8284FA;
+    --gray-200: #D9D9D9;
+    --gray-300: #808080;
+    --gray-400:#333333;
+}
+
+
+.taskDiv  {
+    margin: 4rem 30%;
+}
+
+@media screen and (max-width: 1200px) {
+    .taskDiv  {
+        margin: 4rem 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .taskDiv  {
+        margin: 4rem 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .taskDiv  {
+        margin: 4rem 5%;
+    }
+}
+
+.taskListHeader {
+    color: var(--blue);
+    padding-bottom: 2rem;
+}
+
+.tarefasCriadas {
+    text-align: left;
+}
+
+.numTarefasCriadas {
+    background-color: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+    
+}
+
+.tarefasConcluidas {
+    color: var(--purple);
+    float:right;
+}
+
+
+.numTarefasConcluidas {
+    background-color: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+}
+
+.notEmptyList {
+    display:none;
+}
+
+.emptyList {
+    text-align: center;
+    padding-top: 4rem;
+    color: var(--gray-300);
+}

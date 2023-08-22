@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/Inter/Inter-VariableFont_slntwght.ttf);
+}
+
+:root {
+  --gray-100: #f2f2f2;
+  --gray-300: #808080;
+  --gray-500: #262626;
+  --gray-700: #0d0d0d;
+  --darkblue: #1e6f9f;
+}
+
+.inputDiv {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  margin: -1.6rem 30%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .inputDiv {
+    margin: -1.6rem 25%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .inputDiv {
+    margin: -1.6rem 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .inputDiv {
+    margin: -1.6rem 5%;
+  }
+}
+
+.inputTextArea {
+  color: var(--gray-100);
+  background: var(--gray-500);
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: left;
+  padding: 16px;
+  gap: 8px;
+  border: 1px solid var(--gray-700);
+  resize: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+  width: 100%;
+  height: 54px;
+  overflow: hidden;
+  outline: none;
+}
+
+.inputButton {
+  font-family: "Inter";
+  background: var(--darkblue);
+  color: var(--gray-100);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  width: 90px;
+  height: 52px;
+  gap: 8px;
+  border: none;
+}
+
+.inputButton:hover {
+  background: #4ea8de;
+  cursor: pointer;
+}
