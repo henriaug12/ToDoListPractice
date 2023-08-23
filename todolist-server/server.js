@@ -2,7 +2,6 @@ const mongo = require("mongodb")
 const express = require("express")
 const app = express()
 const port = 5000
-const ObjectID = require("mongodb").ObjectId
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
