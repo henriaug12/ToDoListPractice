@@ -6,7 +6,7 @@ As tarefas podem ser adicionadas, deletadas ou marcadas como completas.
 É necessário possuir uma conexão local com o MongoDB; no meu caso, meu db é chamado "express-tests" com uma collection chamada "tasks", e ele é hosteado na porta 27017.
 Além disso é necessário definir a porta na qual o servidor será hosteado. No código, está definida como 5000
 
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+―――――――――――――――――――――――――――――――――――――――――――――――――――
 
 Project of a to-do list made in React, managed by a Node server using ExpressJS which connects to a MongoDB database to store it.
 The tasks can be added, deleted or marked as "complete".
